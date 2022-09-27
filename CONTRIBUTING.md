@@ -3,9 +3,9 @@
 <h1>Directions to contibute:-</h1>
 
 
-<p>Add a static web contact page containing basic information.
+<p>o-> Add a static web contact page containing basic information.
   <br>
-The UI of the page should be **responsive** .</p>
+o-> The UI of the page should be **responsive** .</p>
 
 
 
