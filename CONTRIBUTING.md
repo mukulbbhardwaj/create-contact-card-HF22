@@ -1,10 +1,11 @@
 
 
-#Directions to contibute:-
+<h1>Directions to contibute:-</h1>
 
 
-Add a static web contact page containing basic information.
-The UI of the page should be responsive.
+<p>Add a static web contact page containing basic information.
+  <br>
+The UI of the page should be **responsive** .</p>
 
 
 Details to be included :
