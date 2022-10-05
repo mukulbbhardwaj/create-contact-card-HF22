@@ -12,7 +12,20 @@
     padding: 0;
 
 }
-
+#download,#contact{
+        
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(21, 13, 186) 0%, rgba(9,9,121,1) 35%, rgb(28, 6, 58) 100%);
+    border-style: none;
+    font-family: 'Source Code Pro', monospace;    
+}
+#download:hover , #contact:hover{
+    border-style: double;
+    color: bisque;
+    background: rgb(28, 24, 117);
+    background: linear-gradient(90deg, rgb(43, 34, 226) 0%, rgb(28, 28, 172) 35%, rgb(71, 24, 137) 100%);
+    
+}
 
 .sidebar{
     /* background-color: blue; */
@@ -74,7 +87,8 @@
     font-family: 'Pushster', cursive;
     margin-top: 20px;
 }.buttons{
-margin-top: 34px ;
+    position: relative;
+margin-top: 50px ;
 font-size: 20px;
 }
 .buttons button{
