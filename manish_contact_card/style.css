@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@200&family=Roboto+Condensed&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(45deg, rgb(23, 25, 34), rgb(39, 21, 68));
+    color: rgb(162, 187, 177); 
+}
+#card{
+    background-image: linear-gradient(90deg, rgb(24, 28, 95), rgb(55, 6, 81));
+    width: 50%;
+    height: max-content;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border-radius: 45px;
+    padding: 5%;
+    box-shadow: 1px 1px 30px 1px rgb(73, 73, 75);
+}
+#card:hover{
+    box-shadow: 1px 1px 30px 1px rgb(35, 43, 91);
+}
+#dp{
+    box-shadow: 6px 6px 40px 2px rgb(127, 14, 135);
+    float: left;
+    width: 40%;
+    border-radius: 50%;
+}
+#dp:hover{
+    box-shadow: 6px 6px 40px 2px rgb(117, 74, 182);
+}
+#email{
+    color: rgb(111, 169, 182);
+    
+}
+#techstack{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#techstack h3{
+    box-shadow: 1px 1px 30px 1px rgb(51, 63, 128);
+    border: 2px solid grey;
+    padding:7px;
+    border-radius: 25px;
+}
+@media screen and (max-width:700px) {
+    #card{
+        width: 80%;
+    }
+}
