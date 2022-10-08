@@ -1,10 +1,8 @@
 # Contact-Card-HF22
 
 
-You all have to create a contact card on your own and share it here in your a folder named as ,
-
+You all have to create a contact card on your own and share it here in a folder named as [yourname],
 <br>
-
 only this will be accepted in hacktoberfest otherwise I will mark it invalid. 
 
 <br>
