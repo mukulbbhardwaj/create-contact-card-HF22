@@ -12,23 +12,21 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+    background-color: rgb(64, 102, 239);
     justify-content: center;
     align-items: center;
-}
-
-section > h1{
-   border: 2px solid purple;
-   box-shadow: 5px 5px 5px red;
-   text-decoration: underline;
+    height: 800px;
+    position: relative;
 }
 
 .hero{
-    margin-top: var(--extra-margin);
     word-break: keep-all;
+    background-color:rgb(119, 101, 198) ;
     border: 2px solid red;
     padding: var(--extra-padding);
     box-shadow: 10px 10px  10px orangered;
+    top: 40%;
+    border-radius: 10px;
 }
 
 .hero .container{
@@ -38,8 +36,13 @@ section > h1{
 
 .hero .profile-img{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+h3,h4{
+    margin: 10px 0px 10px 0px;
 }
 
 .hero .profile-img img{
@@ -61,13 +64,25 @@ p{
     
 }
 
+.first-name p{
+    font-size: var(--heavy-font);
+    padding: var(--input-padding);
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px orangered;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+
 .last-name p{
     font-size: var(--heavy-font);
     padding: var(--input-padding);
     background-color: white;
     border: 2px solid black;
     box-shadow: 5px 5px 10px orangered;
-}
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;}
 
 .email p{
     font-size: var(--heavy-font);
@@ -75,7 +90,8 @@ p{
     background-color: white;
     border: 2px solid black;
     box-shadow: 5px 5px 10px orangered;
-}
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;}
 
 .country p{
     font-size: var(--heavy-font);
@@ -83,7 +99,8 @@ p{
     background-color: white;
     border: 2px solid black;
     box-shadow: 5px 5px 10px orangered;
-}
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;}
 
 .prefered-lan p{
     font-size: var(--heavy-font);
@@ -91,7 +108,8 @@ p{
     background-color: white;
     border: 2px solid black;
     box-shadow: 5px 5px 10px orangered;
-}
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;}
 
 .social-links{
     display: flex;
@@ -109,14 +127,17 @@ p{
     body {
         display: flex;
         flex-direction: column;
-        background-color: rgb(163, 240, 128);
+        background-color: darkgray;
         justify-content: center;
         align-items: center;
     }
-
+    
     .hero{
         display: flex;
+        background-color: rgb(137, 134, 134);
         flex-direction: row;
+        position: absolute;
+        top:30%;
     }
 
     .social-links{
