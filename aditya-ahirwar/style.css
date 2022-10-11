@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(59, 58, 58);
+    color: white;
+}
+
+.main{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+.pic{
+    border: 2px solid white;
+    border-width: 4px;
+    height: 200px;
+    width: 200px;
+    margin-top: -50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 10px black;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.info{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.contact{
+    margin: 3px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    padding: 3px;
+    box-shadow: 5px 5px 10px black;
+}
+.contact  img{
+    height: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.contact img:hover{
+      border: 0.1px dotted white;
+}
