@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    background-color: gray;
+}
+
+#card{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    background-color: black;
+}
+
+#avatar{
+    padding: 15% 0px 15% 0px;
+    width: 30%;
+}
+
+#avatar img{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 100%;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    /* border: 2px solid white; */
+    color: white;
+    font-size: 17px;
+}
+
+#social{
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+}
+
+#social img{
+    width: 50px;
+}
