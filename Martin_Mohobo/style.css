@@ -1,0 +1,199 @@
+html 
+{
+    overflow-x: hidden;
+}
+
+body {
+
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: navajowhite;
+    background-image: url("bkg3.jpg"); 
+    background-size: cover;   
+}
+
+a
+{
+
+    text-decoration: none;
+
+}
+
+
+.card
+{
+    z-index: 1;
+    position: relative;
+    width: 450px;
+    height:550px;
+    margin: 0 auto;
+    margin-top:70px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 10px rgba(255, 222, 173, 0.911);
+	-moz-box-shadow: 0 0 10px rgba(255, 222, 173, 0.911);
+	box-shadow: 0 0 15px rgb(252, 250, 248);
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+
+}
+.card.active
+{
+    height:490px;
+}
+.banner
+{
+    z-index: 2;
+    position: relative;
+    margin-top: -200px;
+    width:100%;
+    height:260px;
+    background-image: url("bkg3.jpg");
+    background-size: cover;
+    border-bottom: solid 1px lightgrey;
+  
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+}
+
+.banner.active
+{
+    height: 0;
+  
+}
+
+.photo
+{
+    z-index: 3;
+    position: relative;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("profile.jpg");
+    background-size: contain;
+    background-position: 50% 50%;
+    top:120px;
+    -webkit-box-shadow: inset 0px 0px 5px 1px rgb(250, 246, 246);
+    -moz-box-shadow: inset 0px 0px 5px 1px rgba(15, 15, 15, 0.712);
+    box-shadow: inset 0px 0px 5px 1px rgb(17, 17, 17);
+    -webkit-transition: top 0.7s ease-in-out, background 0.15s ease;
+    -moz-transition:    top 0.7s ease-in-out, background 0.15s ease;
+    -o-transition:      top 0.7s ease-in-out, background 0.15s ease;
+    -ms-transition:     top 0.7s ease-in-out, background 0.15s ease;
+}
+
+.photo.active
+{
+    top:-80px;
+}
+.card ul
+{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    margin-top:80px;
+    margin-bottom:30px;
+    font-size: 20px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition:    all 0.7s ease-in-out;
+    -o-transition:      all 0.7s ease-in-out;
+    -ms-transition:     all 0.7s ease-in-out;
+}
+
+.card ul.active
+{
+    opacity:0;
+    visibility: hidden;
+}
+
+.card i
+{
+    font-size: 25px;
+    display: inline-block;
+    margin-top:10px;
+    margin-left: 40px;
+    margin-right: 150px;
+    width: 300px;;
+    text-align: left;
+    color: #0744fd;
+}
+
+button.contact
+{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -15px;
+    width: 100%;
+    height: 35px;
+    display: block;    
+    border:none;
+    background-color: transparent;
+    font-family: inherit;
+    color: white;
+    background-color: rgb(7, 22, 245);
+    font-size:12px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition:    all 0.3s ease-in-out;
+    -o-transition:      all 0.3s ease-in-out;
+    -ms-transition:     all 0.3s ease-in-out;
+}
+
+button.contact:hover
+{
+    cursor: pointer;
+    background-color:navajowhite;
+}
+
+button.contact:focus
+{
+    outline: 0;
+    outline-style: auto;
+    outline-color: navajowhite;
+}
+
+.social-media-banner
+{
+    width: 300px;
+    height: 100px;
+    margin-top: 12px;
+    text-align: right;
+    position: relative;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition:    all 1.5s ease-in-out;
+    -o-transition:      all 1.5s ease-in-out;
+    -ms-transition:     all 1.5 ease-in-out;
+}
+
+.social-media-banner.active
+{
+    opacity:1;
+    visibility: visible;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition:    all 0.1s ease-in-out;
+    -o-transition:      all 0.1s ease-in-out;
+    -ms-transition:     all 0.1s ease-in-out;
+}
+
+.social-media-banner a i
+{
+    display: -moz-deck;
+    
+    width: auto;
+    margin-right:15px;
+    margin-left: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition:    all 0.3s ease-in-out;
+    -o-transition:      all 0.3s ease-in-out;
+    -ms-transition:     all 0.3s ease-in-out;
+}
+
+.social-media-banner a i:hover
+{
+    color:navajowhite;
+}
