@@ -1,102 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Card</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@200&family=Roboto+Condensed&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@200&family=Roboto+Condensed&display=swap");
 
-        body {
-            font-family: 'Montserrat', sans-serif;
-            background-image: linear-gradient(45deg, rgb(34, 23, 28), rgb(39, 21, 68));
-            color: rgba(162, 187, 177, 0.484);
-        }
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-image: linear-gradient(
+          45deg,
+          rgb(34, 23, 28),
+          rgb(39, 21, 68)
+        );
+        color: rgb(255, 255, 255);
+      }
 
+      #card {
+        background-image: linear-gradient(
+          90deg,
+          rgb(95, 24, 24),
+          rgb(55, 6, 81)
+        );
+        width: 50%;
+        height: max-content;
+        overflow: auto;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 45px;
+        padding: 5%;
+        box-shadow: 1px 1px 30px 1px rgb(75, 75, 73);
+      }
+
+      .heading_text {
+        cursor: default;
+      }
+      .heading_text:nth-child(2) {
+        text-decoration: underline;
+      }
+
+      #card:hover {
+        box-shadow: 1px 1px 30px 1px rgb(91, 35, 35);
+      }
+
+      #dp {
+        box-shadow: 6px 6px 40px 2px rgb(135, 56, 14);
+        float: left;
+        width: 40%;
+        border-radius: 50%;
+      }
+
+      #dp:hover {
+        box-shadow: 6px 6px 40px 2px rgb(182, 74, 74);
+      }
+
+      #email {
+        color: rgb(182, 149, 111);
+      }
+
+      #techstack {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 50%;
+      }
+
+      #techstack h3 {
+        box-shadow: 1px 1px 30px 1px rgb(128, 51, 51);
+        border: 2px solid grey;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+        cursor: default;
+        transition: all 0.2s ease-in 0s;
+      }
+
+      #techstack h3:hover {
+        box-shadow: 0px 0px 10px rgb(94, 239, 247),
+          0px 0px 30px rgb(81, 229, 236), 0px 0px 50px rgb(133, 241, 247);
+        background-color: rgb(94, 239, 247);
+        color: black;
+        border-color: rgb(94, 239, 247);
+      }
+      @media screen and (max-width: 700px) {
         #card {
-            background-image: linear-gradient(90deg, rgb(95, 24, 24), rgb(55, 6, 81));
-            width: 50%;
-            height: max-content;
-            overflow: auto;
-            margin: auto;
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            border-radius: 45px;
-            padding: 5%;
-            box-shadow: 1px 1px 30px 1px rgb(75, 75, 73);
+          width: 80%;
         }
-
-        #card:hover {
-            box-shadow: 1px 1px 30px 1px rgb(91, 35, 35);
-        }
-
-        #dp {
-            box-shadow: 6px 6px 40px 2px rgb(135, 56, 14);
-            float: left;
-            width: 40%;
-            border-radius: 50%;
-        }
-
-        #dp:hover {
-            box-shadow: 6px 6px 40px 2px rgb(182, 74, 74);
-        }
-
-        #email {
-            color: rgb(182, 149, 111);
-
-        }
-
-        #techstack {
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            width: 50%;
-        }
-
-        #techstack h3 {
-            box-shadow: 1px 1px 30px 1px rgb(128, 51, 51);
-            border: 2px solid grey;
-            padding: 7px;
-            border-radius: 25px;
-        }
-
-        @media screen and (max-width:700px) {
-            #card {
-                width: 80%;
-            }
-        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <center>
-
-
-        <div id="card">
-            <img id="dp" src="https://cdn.pixabay.com/photo/2022/03/31/20/51/matrix-7103669__340.jpg" alt="img load faiilure">
-            <h1>Joy Rock</h1>
-            <h3>India</h3>
-            <h3><a id="mailto:abc@gmail.com" href="link">abc@gmail.com</a></h3>
-            <div id="techstack">
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-                <h3>Javascript</h3>
-                <h3>React JS</h3>
-                <h3>jQuery</h3>
-            </div>
-            <div id="links">
-                <a href="https://github.com/"><img width="40px"
-                        src="https://static-00.iconduck.com/assets.00/github-fill-icon-256x249-z0fuzcor.png"
-                        alt="git">
-                </a>
-            </div>
+      <div id="card">
+        <img
+          id="dp"
+          src="https://cdn.pixabay.com/photo/2022/03/31/20/51/matrix-7103669__340.jpg"
+          alt="img load faiilure"
+        />
+        <h1 class="heading_text">Joy Rock</h1>
+        <h3 class="heading_text">India</h3>
+        <h3><a id="mailto:abc@gmail.com" href="link">abc@gmail.com</a></h3>
+        <div id="techstack">
+          <h3>HTML</h3>
+          <h3>CSS</h3>
+          <h3>Javascript</h3>
+          <h3>React JS</h3>
+          <h3>jQuery</h3>
         </div>
+        <div id="links">
+          <a href="https://github.com/"
+            ><img
+              width="40px"
+              src="https://static-00.iconduck.com/assets.00/github-fill-icon-256x249-z0fuzcor.png"
+              alt="git"
+            />
+          </a>
+        </div>
+      </div>
     </center>
-</body>
-
+  </body>
 </html>
