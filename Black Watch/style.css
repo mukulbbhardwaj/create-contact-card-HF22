@@ -6,6 +6,7 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
   background-color: white;
+  background: linear-gradient(to right, rgb(255, 203, 106), skyblue);
 }
 
 a {
@@ -27,6 +28,8 @@ a {
   -moz-transition: all 0.7s ease-in-out;
   -o-transition: all 0.7s ease-in-out;
   -ms-transition: all 0.7s ease-in-out;
+  border-radius: 20px;
+  overflow: hidden;
   /*
         -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
@@ -123,14 +126,17 @@ button.contact {
   background-color: #c7d0e1;
   font-size: 16px;
   text-transform: capitalize;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  border-radius: 2px;
+  cursor: default;
 }
 
 button.contact:hover {
   cursor: pointer;
+  color: white;
   background-color: #979da8;
 }
 
@@ -248,4 +254,8 @@ button.contact:focus {
 
 .email-form button {
   margin-top: 60px;
+}
+
+li {
+  cursor: default;
 }
